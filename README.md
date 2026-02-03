@@ -1,51 +1,61 @@
-# 🔐 Day 5 - Password Generator
+# Day 5 – Password Generator 🔐
 
-## 📖 Project Overview
-The **Password Generator** is a Python program that creates secure passwords in two styles:  
-
-- **Strong Password:** A completely random mix of letters, numbers, and symbols.  
-- **Sequence Password:** A structured password where letters come first, followed by numbers, then symbols.  
-
-This project demonstrates how to combine loops, randomization, and user input to generate secure and customizable passwords.
+Part of my **100 Days of Python Projects** challenge.  
+This project recreates the classic Python Password Generator using a terminal-style web interface.
 
 ---
 
-## 🧠 What I Learned
-- **For Loops:** Used to repeat actions efficiently.  
-- **Range Function:** Helped generate sequences of numbers easily.  
-- **Code Organization:** Structured code into blocks for readability and execution.  
-- **Randomization:** Used Python's `random` module to create unpredictable passwords.
+## 🚀 Project Overview
+The Password Generator allows the user to create secure passwords based on their preferences.  
+It can generate two types of passwords:
+- A **strong password** with a completely random mix of characters
+- A **sequence password** where letters, numbers, and symbols appear in a fixed order
 
 ---
 
-## ⚙️ How It Works
-1. The user inputs the number of **letters**, **symbols**, and **numbers** they want in their password.  
-2. The program generates:  
-   - **Strong Password:** Characters are randomly shuffled.  
-   - **Sequence Password:** Characters are arranged in a fixed order (letters → numbers → symbols).  
+## 📚 What I Learned
+- Using loops to repeat actions efficiently
+- Generating sequences using numeric ranges
+- Applying randomization to improve security
+- Translating Python looping logic into JavaScript
+- Structuring code for clarity and reuse
 
 ---
 
-## ✨ Code Highlights
-- `random.choice()` → selects random characters from lists  
-- For loops → efficiently generate multiple characters  
-- Combining letters, numbers, and symbols → ensures password strength  
+## 🛠 How It Works
+1. User specifies how many letters, numbers, and symbols they want  
+2. The app generates:
+   - A **strong password** with randomized characters  
+   - A **sequence password** with characters in a fixed order  
+3. The generated password(s) are displayed in the terminal  
 
 ---
 
-## ▶️ Example
-    Welcome to the Password Generator!
-    How many letters would you like in your password? 4
-    How many symbols would you like? 2
-    How many numbers would you like? 3
-    
-    Strong Password: 3g@1b#A2
-    Sequence Password: Abcd123!@
+## 💡 Code Highlights
+- Randomly selecting characters from predefined sets
+- Using loops to build passwords dynamically
+- Shuffling character order for stronger password generation
+- Clear separation between random and sequential logic
 
+---
+
+## 🧪 Example
+      Welcome to the Password Generator!
+      How many letters would you like in your password? 6
+      How many symbols would you like? 2
+      How many numbers would you like? 3
+
+      Strong password: aB#9@k2
+      Sequence password: abcd12@#
 
 ---
 
 ## ▶️ How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/amit7git/python.git
+1. Open the project using the **Live Demo link**, or  
+2. Clone the repository and open `index.html` in a browser  
+3. Click **Run** and follow the on-screen prompts  
+
+---
+
+## 🌐 Live Demo
+https://amit7git.github.io/Python--Day-5-Password_Generator/
